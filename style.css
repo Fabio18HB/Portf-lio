@@ -4,7 +4,38 @@
     box-sizing: border-box;
 }
 
-.container {
+body {
+    background-repeat: no-repeat;
+    background: linear-gradient(148deg, rgba(66, 66, 84, 1) 0%, rgba(2, 3, 26, 1) 100%);
+    height: 100dvh;
+} 
 
+header {
+    display: flex;
+    margin: 12px;
+    border: solid 1px black;
+    width: 99%;
+    height: 20%;
+    background-color: white; 
+    align-items: center;
+}
 
+.fabio {
+    display: flex;
+    border: solid 1px blue;
+    margin-left: 80px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.itens {
+    gap: 20px;
+    display: flex;
+    border: solid 1px purple;
+    margin-left: 20%;
+    font-size: 25px;
+    align-items: center;
+    margin-top: 5%;
+    
 }
